@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".DoiMatKhau">
+    <LinearLayout
+        android:id="@+id/linear_Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+            <TableRow android:layout_gravity="center_vertical">
+                <ImageView
+                    android:id="@+id/imv_Back"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_baseline_arrow_back_ios_red"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="ĐỔI MẬT KHẨU"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="#BD3213"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:id="@+id/imv_Question"                   android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_baseline_question_mark_24"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="40dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp">
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/logowhite"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vui lòng nhập mật khẩu mới. Hãy bảo đảm mật khẩu mới đủ mạnh và có ít nhất 8 ký tự."
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginTop="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:weightSum="10"
+            android:background="@drawable/bg_input"
+            android:layout_gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/edt_MatKhauCu"
+                android:layout_width="0dp"
+                android:layout_weight="9"
+                android:padding="10dp"
+                android:inputType="textPassword"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:layout_height="45dp"
+                android:hint="Mật khẩu cũ"/>
+
+            <ImageView
+                android:id="@+id/imv_ShowPasswordCu"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:backgroundTint="@color/black"
+                android:src="@drawable/ic_baseline_visibility_24" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:weightSum="10"
+            android:background="@drawable/bg_input"
+            android:layout_gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/edt_MatKhauMoi"
+                android:layout_width="0dp"
+                android:layout_weight="9"
+                android:padding="10dp"
+                android:inputType="textPassword"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:layout_height="45dp"
+                android:hint="Mật khẩu mới"/>
+
+            <ImageView
+                android:id="@+id/imv_ShowPassword"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:backgroundTint="@color/black"
+                android:src="@drawable/ic_baseline_visibility_24" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_input"
+            android:layout_gravity="center_vertical">
+            <EditText
+                android:id="@+id/edt_RetypeMatKhau"
+                android:layout_width="0dp"
+                android:layout_weight="9"
+                android:padding="10dp"
+                android:inputType="textPassword"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:layout_height="45dp"
+                android:hint="Xác nhận mật khẩu mới"/>
+
+            <ImageView
+                android:id="@+id/imv_ShowPassword2"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:backgroundTint="@color/black"
+                android:src="@drawable/ic_baseline_visibility_24" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="10dp">
+            <Button
+                android:id="@+id/btn_ResetPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:text="Đổi mật khẩu"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

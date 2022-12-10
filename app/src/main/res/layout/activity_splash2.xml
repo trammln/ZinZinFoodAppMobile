@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Splash2Activity">
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:src="@drawable/logowhite"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="-5dp"
+        android:gravity="center"
+        android:fontFamily="@font/koni"
+        android:text="Câu chuyện về ZinZin Food"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Một thương hiệu đồ ăn vặt mang đến những sản phẩm thơm ngon, chất lượng và tiện dụng trên thị trường Việt."/>
+
+    <TextView
+        android:id="@+id/txt_Batdau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="Bắt đầu ngay"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:weightSum="10"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/txt_Dangky"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            android:text="Đăng ký"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"/>
+        <TextView
+            android:id="@+id/txt_Dangnhap"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            android:text="Đăng nhập"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"/>
+    </LinearLayout>
+
+</LinearLayout>

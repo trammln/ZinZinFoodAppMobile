@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewAddress"
+    android:orientation="vertical"
+    android:background="#f0f2f5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="15dp">
+
+            <!-- =========== SAMPLE ADDRESS 01 =======================-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:padding="5dp">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Họ tên"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="10dp"/>
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="Họ tên"
+                            android:textSize="16sp"
+                            android:layout_weight="3"
+                            android:gravity="start"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="SĐT"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="10dp"/>
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="Số điện thoại"
+                            android:textSize="16sp"
+                            android:layout_weight="3"
+                            android:gravity="start"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tỉnh/TP"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="10dp"/>
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="Tỉnh/Thành phố"
+                            android:textSize="16sp"
+                            android:layout_weight="3"
+                            android:gravity="start"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Quận/Huyện"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="10dp"/>
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="Quận/Huyện"
+                            android:textSize="16sp"
+                            android:layout_weight="3"
+                            android:gravity="start"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Phường/Xã"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="10dp"/>
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="Phường/Xã"
+                            android:textSize="16sp"
+                            android:layout_weight="3"
+                            android:gravity="start"/>
+                    </TableRow>
+                </TableLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Guide_nhapdiachi"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/guide_cuphapdiachi"
+                        android:textSize="14sp"
+                        android:layout_marginLeft="10dp"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/guide_inputaddress"
+                        android:textSize="14sp"
+                        android:layout_marginLeft="10dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--============== SAMPLE ADDRESS 02 ========================-->
+
+            <Button
+                android:id="@+id/btn_AddNewAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chọn địa chỉ"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <!--================= FOOTER =============================-->
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true">-->
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="55dp"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:background="#bd3213"-->
+    <!--            android:layout_marginTop="5dp"-->
+    <!--            android:layout_gravity="bottom"-->
+    <!--            android:layout_weight="1.5">-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:orientation="vertical"-->
+    <!--                android:layout_marginStart="10dp">-->
+
+    <!--                <ImageView-->
+    <!--                    android:id="@+id/imv_Home"-->
+    <!--                    android:layout_width="25dp"-->
+    <!--                    android:layout_height="30dp"-->
+    <!--                    android:src="@drawable/whitehomeicon"-->
+    <!--                    android:layout_marginTop="5dp"-->
+    <!--                    android:layout_marginStart="10dp">-->
+    <!--                </ImageView>-->
+    <!--                <TextView-->
+    <!--                    android:layout_width="50dp"-->
+    <!--                    android:layout_height="25dp"-->
+    <!--                    android:text="Home"-->
+    <!--                    android:textSize="12sp"-->
+    <!--                    android:textColor="@color/white"-->
+    <!--                    android:layout_gravity="center"-->
+    <!--                    android:gravity="center">-->
+    <!--                </TextView>-->
+    <!--            </LinearLayout>-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_weight="2"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:orientation="vertical"-->
+    <!--                android:layout_marginStart="25dp">-->
+
+    <!--                <ImageView-->
+    <!--                    android:id="@+id/imv_DonMua"-->
+    <!--                    android:layout_width="30dp"-->
+    <!--                    android:layout_height="30dp"-->
+    <!--                    android:src="@drawable/donhang"-->
+    <!--                    android:layout_marginTop="5dp"-->
+    <!--                    android:layout_gravity="center">-->
+    <!--                </ImageView>-->
+    <!--                <TextView-->
+    <!--                    android:layout_width="60dp"-->
+    <!--                    android:layout_height="25dp"-->
+    <!--                    android:text="Đơn mua"-->
+    <!--                    android:textSize="12sp"-->
+    <!--                    android:textColor="@color/white"-->
+    <!--                    android:layout_gravity="center"-->
+    <!--                    android:gravity="center">-->
+    <!--                </TextView>-->
+    <!--            </LinearLayout>-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:orientation="vertical"-->
+    <!--                android:layout_marginStart="25dp"-->
+    <!--                android:layout_weight="1.5">-->
+
+    <!--                <ImageView-->
+    <!--                    android:id="@+id/imv_UuDai"-->
+    <!--                    android:layout_width="25dp"-->
+    <!--                    android:layout_height="30dp"-->
+    <!--                    android:src="@drawable/uudai"-->
+    <!--                    android:layout_marginTop="5dp"-->
+    <!--                    android:layout_gravity="center">-->
+    <!--                </ImageView>-->
+    <!--                <TextView-->
+    <!--                    android:layout_width="50dp"-->
+    <!--                    android:layout_height="25dp"-->
+    <!--                    android:text="Ưu đãi"-->
+    <!--                    android:textSize="12sp"-->
+    <!--                    android:textColor="@color/white"-->
+    <!--                    android:layout_gravity="center"-->
+    <!--                    android:gravity="center">-->
+    <!--                </TextView>-->
+    <!--            </LinearLayout>-->
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:orientation="vertical"-->
+    <!--                android:layout_marginStart="25dp"-->
+    <!--                android:layout_weight="2">-->
+
+    <!--                <ImageView-->
+    <!--                    android:id="@+id/imv_Product"-->
+    <!--                    android:layout_width="30dp"-->
+    <!--                    android:layout_height="30dp"-->
+    <!--                    android:src="@drawable/ic_baseline_food_bank_24"-->
+    <!--                    android:layout_marginTop="5dp"-->
+    <!--                    android:layout_gravity="center">-->
+    <!--                </ImageView>-->
+    <!--                <TextView-->
+    <!--                    android:layout_width="70dp"-->
+    <!--                    android:layout_height="25dp"-->
+    <!--                    android:text="Sản phẩm"-->
+    <!--                    android:textSize="12sp"-->
+    <!--                    android:textColor="@color/white"-->
+    <!--                    android:layout_gravity="center"-->
+    <!--                    android:gravity="center">-->
+    <!--                </TextView>-->
+    <!--            </LinearLayout>-->
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:orientation="vertical"-->
+    <!--                android:layout_marginStart="25dp"-->
+    <!--                android:layout_weight="1.5">-->
+
+    <!--                <ImageView-->
+    <!--                    android:id="@+id/imv_Toi"-->
+    <!--                    android:layout_width="25dp"-->
+    <!--                    android:layout_height="30dp"-->
+    <!--                    android:src="@drawable/toi"-->
+    <!--                    android:layout_marginTop="5dp"-->
+    <!--                    android:layout_gravity="center">-->
+    <!--                </ImageView>-->
+    <!--                <TextView-->
+    <!--                    android:layout_width="50dp"-->
+    <!--                    android:layout_height="25dp"-->
+    <!--                    android:text="Tôi"-->
+    <!--                    android:textSize="12sp"-->
+    <!--                    android:textColor="@color/white"-->
+    <!--                    android:layout_gravity="center"-->
+    <!--                    android:gravity="center">-->
+    <!--                </TextView>-->
+    <!--            </LinearLayout>-->
+    <!--        </LinearLayout>-->
+    <!--    </RelativeLayout>-->
+
+    <!--==================== HEADER ==========================-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#BD3213"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#BD3213"
+                android:src="@drawable/arrow_back"
+                android:paddingLeft="12dp"/>
+
+            <TextView
+                android:text="CHỌN ĐỊA CHỈ GIAO HÀNG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:background="#BD3213"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

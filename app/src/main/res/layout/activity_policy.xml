@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PolicyActivity"
+    android:orientation="vertical"
+    android:background="#f0f2f5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="0dp"
+                android:layout_marginHorizontal="20dp"
+                android:stretchColumns="1">
+
+                <TableRow
+                    android:id="@+id/btn_policy01"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/policy01_fragment"
+                        android:textStyle="bold"
+                        android:textSize="16sp"/>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                        android:layout_gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/btn_policy02"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/policy02_fragment"
+                        android:textStyle="bold"
+                        android:textSize="16sp"/>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                        android:layout_gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/btn_policy03"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/policy03_fragment"
+                        android:textStyle="bold"
+                        android:textSize="16sp"/>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                        android:layout_gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/btn_policy04"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/policy04_fragment"
+                        android:textStyle="bold"
+                        android:textSize="16sp"/>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                        android:layout_gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/btn_policy05"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/policy05_fragment"
+                        android:textStyle="bold"
+                        android:textSize="16sp"/>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                        android:layout_gravity="end"/>
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+<!--==================== HEADER ==========================-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#BD3213"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#BD3213"
+                android:src="@drawable/arrow_back"
+                android:paddingLeft="12dp"/>
+
+            <TextView
+                android:text="@string/policy_page_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:background="#BD3213"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

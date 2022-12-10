@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/product_Thumb"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/banhtrangbocuon"
+        android:layout_marginStart="10dp">
+    </ImageView>
+    <TextView
+        android:id="@+id/product_Name"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Bánh tráng cuộn bơ"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp">
+    </TextView>
+    <TextView
+        android:id="@+id/product_Price"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="10.000 VNĐ"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="#bd3213"
+        android:layout_marginStart="10dp">
+    </TextView>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:src="@drawable/namsao"
+        android:layout_marginStart="10dp">
+    </ImageView>
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Đã bán 50"
+        android:layout_marginStart="10dp"
+        android:textColor="#555252"
+        android:layout_marginBottom="10dp">
+    </TextView>
+
+</LinearLayout>

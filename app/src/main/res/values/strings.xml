@@ -1,0 +1,143 @@
+<resources>
+    <string-array name="products">
+        <item>Bánh tráng rong biển</item>
+        <item>Bánh tráng bơ cuộn</item>
+        <item>Bánh tráng tôm hành phô mai</item>
+        <item>Bánh tráng tỏi phi cay</item>
+        <item>Bánh tráng sa tế tắc</item>
+        <item>Bánh tráng sa tế bò </item>
+        <item>Mực bento cay cay</item>
+        <item>Snack bò thơm cay</item>
+        <item>Quẩy bò ZinZin</item>
+        <item>Tăm que giòn vị</item>
+        <item>Cơm cháy lắc khô gà</item>
+        <item>Khô gà lá chanh</item>
+        <item>Khô heo giả bò</item>
+    </string-array>
+    <string name="app_name">ZinZinFood</string>
+    <string name="quen_mat_khau"><u>Quên mật khẩu</u></string>
+    <string name="hoac">Hoặc</string>
+    <string name="dang_ky"><u>Đăng ký</u></string>
+    <string name="dang_nhap"><u>Đăng nhập</u></string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+
+    <string name="policy01_fragment">CHÍNH SÁCH THANH TOÁN</string>
+    <string name="policy02_fragment">CHÍNH SÁCH ĐỔI TRẢ</string>
+    <string name="policy03_fragment">CHÍNH SÁCH VẬN CHUYỂN VÀ GIAO NHẬN</string>
+    <string name="policy04_fragment">CHÍNH SÁCH BẢO MẬT THÔNG TIN</string>
+    <string name="policy05_fragment">CHÍNH SÁCH CHĂM SÓC KHÁCH HÀNG</string>
+    <string name="input_addresss">Nhập địa chỉ</string>
+    <string name="input_voucher">Nhập voucher</string>
+    <string name="input_payment_method">Nhập hình thức thanh toán</string>
+    <string name="input_notes">Ghi chú cho cửa hàng:</string>
+    <string name="draft_sum">Tạm tính</string>
+    <string name="discount_quant">Giảm giá</string>
+    <string name="deliv_fee">Phí vận chuyển</string>
+    <string name="total_sum">Thành tiền:</string>
+    <string name="review_products_to_pay">Xem lại sản phẩm</string>
+    <string name="text_order_confirm">Đặt hàng</string>
+
+    <!--    Policy 01 -->
+    <string name="payment_page_title">THANH TOÁN</string>
+    <string name="zinzin_food_cung_c_p_c_c_ph_ng_th_c_thanh_to_n_n_o">ZinZin Food cung cấp các phương thức thanh toán nào?</string>
+    <string name="text2">Nhằm mang đến Quý khách những trải nghiệm mua sắm trực tuyến tuyệt vời nhất, tại ZinZin Food, chúng tôi đưa ra 4 phương thức thanh toán để Quý khách dễ dàng lựa chọn:</string>
+    <string name="title1">1. Thanh toán bằng tiền mặt khi nhận hàng (COD)</string>
+    <string name="text3">COD là viết tắt của Cash On Delivery, nghĩa là thanh toán khi nhận hàng. Với phương thức thanh toán này, quý khách thanh toán bằng tiền mặt cho nhân viên giao hàng ngay khi nhận được đơn hàng của mình. Chúng tôi chấp nhận hình thức thanh toán khi nhận hàng (COD) cho hầu hết đơn hàng trên toàn quốc. Trừ những trường hợp sau:</string>
+    <string name="text4">- Chỉ áp dụng COD cho đơn hàng lớn hơn 50.000đ tại nội thành Hồ Chí Minh. Nếu đơn hàng ít hơn 50.000đ, quý khách vui lòng chọn hình thức thanh toán khác.</string>
+    <string name="text5">- Không hỗ trợ phương thức Thanh toán bằng tiền mặt khi nhận hàng (COD) đối với đơn hàng có sản phẩm bắt buộc lưu chuyển trực tiếp từ cửa hàng để giao hàng, hoặc đơn hàng có từ 3 kiện hàng cùng size. Quý khách vui lòng chọn hình thức thanh toán trước bằng hình thức chuyển khoản. Nhân viên hỗ trợ đơn hàng sẽ liên hệ xác nhận thông tin đơn hàng cho quý khách.</string>
+    <string name="title2">2. Thanh toán chuyển khoản:</string>
+    <string name="text6">- Trong quá trình đặt hàng, Quý khách không muốn thanh toán bằng tiền mặt hoặc không thể thanh toán trực tiếp, Quý khách có thể chọn hình thức thanh toán chuyển khoản trong phần Phương thức thanh toán</string>
+    <string name="text7">- Điều kiện để chọn hình thức thanh toán chuyển khoản là tài khoản ngân hàng của Quý khách đã được đăng ký sử dụng Internet Banking.</string>
+    <string name="text8">* Nội dung chuyển khoản: GB_[Mã đơn hàng] Ví dụ: Quý khách thanh toán chuyển khoản cho đơn hàng 19xxxxxxx đặt hàng trên website, cú pháp ghi chú khi chuyển khoản là ZZ_19xxxxxxx</string>
+    <string name="title3">3. Thanh toán bẳng thẻ ATM nội địa:</string>
+    <string name="text9">Trong quá trình đặt hàng, quý khách chọn hình thức Thanh toán bằng thẻ ATM nội địa, quý khách sẽ được chuyển đến Cổng thanh toán trực tuyến bảo mật Onepay để thanh toán. Thẻ ATM của quý khách bắt buộc phải sử dụng Internet Banking để thực hiện phương thức thanh toán này.</string>
+    <string name="title4">4. Thanh toán bằng Visa/Master card:</string>
+    <string name="text10">Trong quá trình đặt hàng, quý khách chọn hình thức Thanh toán bằng thẻ Visa/Master card, quý khách sẽ được chuyển đến Cổng thanh toán trực tuyến bảo mật Onepay để thanh toán.</string>
+    <string name="title5">Giá trị đơn hàng là bao nhiêu thì tôi sẽ được xuất hóa đơn?</string>
+    <string name="text11">Trong mọi trường hợp, trừ khi có yêu cầu khác đi, Quý khách hàng sẽ nhận được hoá đơn theo thông tin cá nhân đã đăng ký khi mua hàng tại ZinZin Food.</string>
+
+
+    <!--    Policy 02-->
+    <string name="policy02_name">CHÍNH SÁCH ĐỔI TRẢ</string>
+    <string name="pol2_text1">Chính sách Đổi trả sản phẩm của ZinZin Food quy định các lý do chấp nhận, yêu cầu cho sản phẩm được đổi trả và thời gian xử lý đổi trả cho khách hàng.</string>
+    <string name="pol2_title1">1. Lý do chấp nhận đổi trả</string>
+    <string name="pol2_text2">- Sản phẩm bị mất niêm phong, bị giao sai về số lượng, thông tin và mẫu mã so với đơn đặt hàng.</string>
+    <string name="pol2_text3">- Sản phẩm bị hỏng do lỗi của nhà sản xuất (lỗi về thiết kế, nội dung, các lỗi ẩn tì/nội tì, khác biệt so với tiêu chuẩn chất lượng đã công bố của nhà sản xuất) hoặc lỗi trong quá trình vận chuyển (bị biến dạng, trầy xước, vấy bẩn, nứt vỡ v.v.).</string>
+    <string name="pol2_text4">- Nhà cung cấp bị phá sản, ngưng hoạt động dẫn đến khách hàng không sử dụng được voucher trong thời gian hiệu lực.</string>
+    <string name="pol2_text5">- Voucher khi khách hàng sử dụng có chất lượng dịch vụ không đúng như cam kết: không áp dụng đúng điều kiện, thái độ phục vụ thiếu tôn trọng, không thể sắp xếp ngày sử dụng dịch vụ như khách hàng mong muốn ít nhất 3 lần (có bằng chứng cụ thể).</string>
+    <string name="pol2_title2">2. Điều kiện đổi trả</string>
+    <string name="pol2_subtitle1">a. Yêu cầu cho sản phẩm đổi trả</string>
+    <string name="pol2_text6">- Sản phẩm không nằm trong danh mục hạn chế đổi trả của ZinZin Food như được liệt kê tại phụ lục đính kèm theo đây.</string>
+    <string name="pol2_text7">- Sản phẩm còn nguyên vẹn, đầy đủ nhãn mác, nguyên đai kiện, niêm phong theo quy cách ban đầu (trừ trường hợp sản phẩm bị lỗi hoặc bị hư hại trong quá trình vận chuyển).</string>
+    <string name="pol2_subtitle2">b. Thời gian đổi trả</string>
+    <string name="pol2_text8">- Trả lại hàng ngay tại thời điểm giao/nhận hàng</string>
+    <string name="pol2_text9">- Khách hàng liên hệ để đổi trả hàng từ khoảng cách xa sau thời điểm nhận hàng không quá 72 giờ.</string>
+
+    <!--    Policy 03-->
+    <string name="pol3_title1">1. Đối tượng và phạm vi vận chuyển:</string>
+    <string name="pol3_text1">- Chính sách giao nhận được áp dụng cho tất cả các khách hàng đặt hàng qua website ZinZin Food</string>
+    <string name="pol3_text2">- ZinZin Food sẽ thực hiện tất cả các yêu cầu vận chuyển cho khách hàng trên phạm vi toàn quốc</string>
+    <string name="pol3_title2">2. Hình thức vận chuyển:</string>
+    <string name="pol3_subtitle1">a, Nhận hàng trực tiếp tại cửa hàng</string>
+    <string name="pol3_subtitle2">b, Giao hàng nội thành: khu vực Hà Nội, Hải Phòng</string>
+    <string name="pol3_text3">Với những khách đến mua hàng tại cửa hàng hoặc thông qua website ZinZin Food</string>
+    <string name="pol3_text4">Quý khách vui lòng kiểm tra thật kỹ hàng hóa, đối chiếu sản phẩm với chứng từ, phiếu bảo hành trước khi nhận hàng.</string>
+    <string name="pol3_text5">Phí giao hàng trong nội thành : 30.000/ đơn hàng.</string>
+    <string name="pol3_text6">Nhân viên giao hàng sẽ liên lạc trước với những khách hàng không có yêu cầu về thời gian để sắp xếp thời gian hợp lý với khách hàng.</string>
+    <string name="pol3_text7">Với những khách hàng có yêu cầu về thời gian , nhân viên giao hàng sẽ liên lạc và sắp xếp giao đúng giờ khách hàng yêu cầu</string>
+    <string name="pol3_text8">Trừ những trường hợp thời gian quá cấp bách, hoặc ngoài thời gian làm việc của cửa hàng, nhân viên sẽ liên lạc và thỏa thuận lại với thời gian của khách hàng cho hợp lý.</string>
+    <string name="pol3_text9">Quý khách vui lòng trực tiếp kiểm tra kỹ sản phẩm ngay khi nhận được hàng từ nhân viên giao hàng, nếu có vấn đề liên quan tới chủng loại, mẫu mã, chất lượng, số lượng hàng hoá không đúng như trong đơn đặt hàng, Quý khách vui lòng báo ngay cho chúng tôi để phối hợp xử lý. Nếu không có bất cứ vấn đề gì, Quý khách vui lòng nhận hàng và thanh toán đầy đủ.</string>
+
+    <!--    Policy 04-->
+
+    <string name="pol4_text1">Tại ZinZin Food, chúng tôi coi việc bảo vệ thông tin cá nhân của bạn là ưu tiên hàng đầu. Chúng tôi hiểu hoàn toàn rằng thông tin cá nhân của bạn là thuộc về bạn, vì vậy chúng tôi nỗ lực hết sức lưu trữ bảo mật và xử lý cẩn thận thông tin mà bạn chia sẻ với chúng tôi.</string>
+    <string name="pol4_text2">Chúng tôi coi sự tin cậy của bạn có giá trị cao nhất. Vì vậy chúng tôi thu thập lượng thông tin tối thiểu chỉ khi có sự cho phép của bạn và sử dụng thông tin này chỉ cho các mục đích đã dự định. Chúng tôi không cung cấp thông tin cho các bên thứ ba mà không có sự hiểu biết của bạn.</string>
+    <string name="pol4_title1">1. Mục đích thu thập thông tin cá nhân</string>
+    <string name="pol4_text3">Mục đích của việc thu thập thông tin khách hàng nhằm liên quan đến các vấn đề như:</string>
+    <string name="pol4_text4">– Hỗ trợ khách hàng: mua hàng, thanh toán, giao hàng</string>
+    <string name="pol4_tex5">– Cung cấp thông tin sản phẩm, các dịch vụ và hỗ trợ theo yêu cầu của khách hàng.</string>
+    <string name="pol4_text6">– Gửi thông báo các chương trình, sản phẩm mới nhất của chúng tôi.</string>
+    <string name="pol4_text7">– Giải quyết vấn đề phát sinh khi mua hàng.</string>
+    <string name="pol4_title2">2. Phạm vi thu thập thông tin</string>
+    <string name="pol4_text8">Chúng tôi thu thập thông tin cá nhân của khách hàng khi:</string>
+    <string name="pol4_text9">– Khách hàng trực tiếp cung cấp: Khách hàng trực tiếp cung cấp bao gồm: họ tên, địa chỉ email, số điện thoại, địa chỉ.</string>
+    <string name="pol4_text10">– Khách hàng tương tác với chúng tôi: Chúng tôi sử dụng cookies và công nghệ theo dấu khác để thu thập một số thông tin khi khách hàng tương tác trên website ZinZin Food.</string>
+    <string name="pol4_text11">– Từ những nguồn hợp pháp khác: Chúng tôi thu thập thông tin khách hàng từ các nguồn hợp pháp khác.</string>
+    <string name="pol4_title3">3. Thời gian lưu trữ thông tin</string>
+    <string name="pol4_text12">ZinZin Food sẽ lưu trữ các thông tin cá nhân do khách hàng cung cấp trên các hệ thống nội bộ của chúng tôi trong quá trình cung cấp dịch vụ cho khách hàng hoặc khi khách hàng có yêu cầu hủy thông tin đã cấp.</string>
+
+    <!--   Policy 05-->
+    <string name="pol5_title1">1. Chính sách đổi trả</string>
+    <string name="pol5_text1"><![CDATA[Toàn bộ chính sách đổi trả / bảo hành sản phẩm được công bố chi tiết tại đây: <link>]]></string>
+    <string name="pol5_title2">2. Chính sách khuyến mại</string>
+    <string name="pol5_text2">ZinZin Food cung cấp hệ thống xếp hạng người dùng thân thiết gồm:</string>
+    <string name="pol5_text3">- Hạng vàng: tổng số đơn hàng có giá trị đạt trên 5.000.000 VNĐ</string>
+    <string name="pol5_text4">- Hàng bạc: tổng số đơn hàng có giá trị đạt trên 2.000.000 VNĐ</string>
+    <string name="pol5_text5">- Hạng đồng: tổng số đơn hàng có giá trị đạt trên 500.000 VNĐ</string>
+    <string name="pol5_title3">3. Chính sách tư vấn/chăm sóc khách hàng</string>
+    <string name="pol5_text6">Nhân viên tư vấn khách hàng sẽ chủ động liên hệ ngay khi khách nhận được hàng để hướng dẫn sử dụng, chia sẻ các thông tin cần thiết.</string>
+    <string name="pol5_title4">4. Chính sách bảo mật</string>
+    <string name="pol5_text7"><![CDATA[Toàn bộ chính sách bảo mật thông tin khách hàng được công bố tại đây: <link>]]></string>
+    <string name="policy_page_title"><![CDATA[CHÍNH SÁCH & ĐIỀU KHOẢN]]></string>
+
+
+    <string name="sample_address">KTX Khu B, ĐHQG HCM, Đông Hòa, Dĩ An, Bình Dương</string>
+    <string name="chinhsachthanhtoan">CHÍNH SÁCH THANH TOÁN</string>
+    <string name="thanhtoan">THANH TOÁN</string>
+    <string name="sample_delivery_addr">KTX Khu B, ĐHQG HCM, Đông Hòa, Dĩ An, Bình Dương</string>
+    <string name="sample_delivery_addr2">Thôn 2, EaSol, EaH\'leo, Đak Lak</string>
+    <string name="Guide_nhapdiachi">Nhập địa chỉ cụ thể</string>
+    <string name="guide_cuphapdiachi">Số nhà, tên tòa nhà, tên đường, tên khu vực</string>
+    <string name="guide_inputaddress">Nhập địa chỉ cụ thể</string>
+
+</resources>

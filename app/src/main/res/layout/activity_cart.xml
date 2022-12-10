@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="#eceff3"
+    android:weightSum="100"
+    tools:context=".CartActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_Header"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#BD3213"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_weight="7"
+        android:orientation="horizontal">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:stretchColumns="*">
+            <TableRow
+                android:weightSum="100">
+                <LinearLayout
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imv_Back"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="start"
+                        android:src="@drawable/ic_baseline_arrow_back_ios_new_24"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="60"
+                    android:text="GIỎ HÀNG"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="wrap_content"
+                    android:gravity="end">
+                    <ImageButton
+                        android:id="@+id/btn_ClearAll"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center_vertical"
+                        android:backgroundTint="#BD3213"
+                        android:src="@drawable/ic_outline_remove_shopping_cart_24"/>
+                    <ImageButton
+                        android:id="@+id/btn_AddMore"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:backgroundTint="#BD3213"
+                        android:src="@drawable/ic_outline_add_shopping_cart_24"/>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_ProductCart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        android:layout_weight="93"/>
+
+    <LinearLayout
+        android:id="@+id/linear_Empty"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:visibility="gone"
+        android:gravity="center_vertical"
+        android:layout_weight="93">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/cart"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Giỏ hàng của bạn hiện đang trống."
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/btn_Continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_red"
+            android:text="Tiếp tục mua sắm"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:backgroundTint="#eceff3">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#eceff3"/>
+        <TableLayout
+            android:id="@+id/table_Footer"
+            android:backgroundTint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:stretchColumns="*">
+            <TableRow
+                android:layout_gravity="center_vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_baseline_money_24" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Tổng cộng: "
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_Total"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="41000"
+                        android:textColor="#BD3213"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" đ"
+                        android:textColor="#BD3213"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_Order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:backgroundTint="#BD3213"
+                    android:text="Mua ngay (4)"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"/>
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+</LinearLayout>

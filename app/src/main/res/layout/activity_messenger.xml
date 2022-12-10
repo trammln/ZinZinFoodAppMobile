@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Messenger"
+    android:background="#f0f2f5"
+    >
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="#bd3213"
+        android:text="ZinZin ơi mình muốn đặt hàng ạ"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:layout_alignParentRight="true"
+        android:padding="7dp"></TextView>
+    <TextView
+        android:layout_marginTop="150dp"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:text="Bạn có thể liên hệ trực tiếp hotline 0909 697 026 để được chúng mình hỗ trợ nhe 😍"
+        android:textColor="#bd3213"
+        android:textSize="17sp"
+        android:layout_alignParentLeft="true"
+        android:padding="7dp"></TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#bd3213"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentTop="true">
+        <ImageView
+            android:id="@+id/imv_Return"
+            android:layout_weight="1.5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/muitentrang"
+            android:layout_gravity="center">
+        </ImageView>
+        <ImageView
+            android:layout_weight="1.5"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_baseline_account_circle_24"
+            android:layout_gravity="center">
+        </ImageView>
+
+        <TextView
+            android:layout_weight="8"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="ZinZin Food"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_gravity="center">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#bd3213"
+        android:layout_alignParentBottom="true"
+        android:weightSum="10">
+        <EditText
+            android:layout_weight="7"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:hint="Gửi tin nhắn..."
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:padding="10dp">
+        </EditText>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_arrow_forward_24"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp">
+        </ImageView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
